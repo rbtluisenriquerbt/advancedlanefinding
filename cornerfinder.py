@@ -3,10 +3,10 @@ import cv2
 import matplotlib.pyplot as plt
 import matplotlib.image as mpimg
 
-nx = 8
-ny = 4
+nx = 9
+ny = 6
 
-fname = 'calibration_test.png'
+fname = './calibration_images/16.png'
 img = cv2.imread(fname)
 
 gray = cv2.cvtColor(img, cv2.COLOR_BGR2GRAY)
